@@ -66,12 +66,6 @@ footer {
         font-size: small;
         list-style: none;
     }
-    .color {
-        width: 478px;
-        height: 100px;
-        background-color: black;
-        display: flex;
-    }
     .logo {
         border-radius: 15px;
         width: 200px;
