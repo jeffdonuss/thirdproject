@@ -1,0 +1,42 @@
+div {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+img {
+    width: 50vh;
+    height: 100vh;
+}
+
+H1 {
+    text-align: center;
+    color: brown;
+    font-size: 100PX;
+}
+
+body {
+    background-color: black;
+}
+
+@media(max-width:635px) {
+    H1 {
+        text-align: center;
+        color: brown;
+        font-size: 50PX;
+    }
+    div {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    img {
+        width: 230px;
+        height: 400px;
+    }
+}

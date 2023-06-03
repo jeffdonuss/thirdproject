@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+}
