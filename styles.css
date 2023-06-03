@@ -56,7 +56,21 @@ footer {
     }
 }
 
-@media(max-width:479px) {
+@media(max-width:479px) and (min-width:351px) {
+    .home {
+        width: 220px;
+        object-fit: none;
+        height: 450px;
+    }
+    .Q {
+        font-size: small;
+        list-style: none;
+    }
+    .logo {
+        border-radius: 15px;
+        width: 200px;
+    }
+}@media(max-width:350px){
     .home {
         width: 220px;
         object-fit: none;
